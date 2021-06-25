@@ -1,0 +1,20 @@
+{
+    "name": "joeri-abbo/acf-plus",
+    "type": "wordpress-muplugin",
+    "description": "The  ACF package. A package to manage several different ACF settings, filters and actions.",
+    "keywords": ["acf"],
+    "homepage": "http://rodesk.com",
+    "authors": [
+        {
+            "name":     "Joeri Abbo",
+            "email":    "joeriabbo@hotmail.com",
+            "homepage": "https://nl.linkedin.com/in/joeri-abbo-43a457144",
+            "role":     "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AcfPlus\\Classes\\": "src/"
+        }
+    }
+}
