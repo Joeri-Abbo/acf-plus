@@ -15,7 +15,7 @@
 const ACF_PLUS_TEXT_DOMAIN = 'acf-plus';
 const ACF_PLUS_PREFIX = 'acf-plus';
 
-require_once 'vendor/autoload.php';
+require_once 'src/FlexibleContentModals.php';
 
 // File Security Check
 defined('ABSPATH') or die("No script kiddies please!");
