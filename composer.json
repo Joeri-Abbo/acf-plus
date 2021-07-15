@@ -11,5 +11,10 @@
             "homepage": "https://nl.linkedin.com/in/joeri-abbo-43a457144",
             "role":     "Developer"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "AcfPlus\\": "src/"
+        }
+    }
 }
